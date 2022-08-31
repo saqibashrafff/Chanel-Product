@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.page {
+    background-color: white;
+    width: 30%;
+    margin: 150px auto;
+    height: 300px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.ImageDiv {
+    background-color: aqua;
+    width: 50%;
+}
+
+.Image1 {
+   height: 100%;
+   width: 100%;
+   
+}
+
+.TextDiv {
+    width: 50%;
+}
+
+.P1 {
+    font-size: 0.5rem;
+    padding-top: 20px;
+    margin-left: 20px ;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
+.h2 {
+    padding-top: 12px;
+    margin-left: 20px ;
+    width: 75%;
+}
+
+.h2text {
+    line-height: 21px;
+    font-family: 'Fraunces', serif;
+}
+
+.P2 {
+    font-size: 0.6rem;
+    padding-top: 15px;
+    width: 75%;
+    margin-left: 20px ;
+    color: hsl(228, 12%, 48%);
+}
+
+.P2text {
+    line-height: 15px;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.price {
+    display: flex;
+    margin: 20px 0 0 20px;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+
+.priceP {
+    text-decoration:line-through;
+    font-size: 0.6rem;
+    padding: 8px 0 0 10px;
+    color: hsl(158, 36%, 37%);
+}
+
+.cartDiv {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.button {
+    padding: 10px 45px;
+    font-size: 0.6rem;
+    border-style: none;
+    border-radius: 4px;
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+}
+
+.button:hover {
+    background-color: hsl(158, 62%, 16%) ;
+}
+
+.Icon {
+    padding-right: 8px;
+    font-size: 0.5rem;
+}
+
+
+
